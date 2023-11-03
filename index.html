@@ -2,6 +2,36 @@
 
 <html lang="en">
 	<head>
+		<style>
+p{
+	color:#004F3A;
+}
+a {
+	color:white;
+	font-size:32;
+	}
+a:hover {color:green;}
+*{font-family:Lexend, Lekton, sans-serif;}
+h1{font-family:"Metamorphous", serif;}
+.btn {
+	background-color:#004F3A;
+	color:#B3FFD0;
+    padding:17px;
+    border:1px;
+	text-align: center;
+	font-size:25px;
+	margin: 5px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color:#004F3A;
+	color:#B1FFCA;
+}
+.rounded {border-radius: 10px;}
+<body>
+<button class="btn">Rectangle</button>
+<button class="btn rounded">Rounded</button>
+</style>
 		<title>Index</title>
 	</head>
 	<body>
@@ -12,23 +42,24 @@
 		<nav>
 		<div style="display:flex; flex-direction:row; flex-basis: 400px;">
 			<div style="width:120px; text-align:center; background:#004F3A;">
-			<h1 style="color:#FFFFFF;">Home</h1>
+			<button class="hover">Home</button>
 			</div>
 			<div style="width:120px; text-align:center; background:#004F3A;">
-			<h1 style="color:#FFFFFF;">Works</h1>
+			<button class="hover">Works</button>
 			</div>
 			<div style="width:120px; text-align:center; background:#004F3A;">
-			<h1 style="color:#FFFFFF; font-size:24px;">About</h1>
+			<button class="hover">About</button>
 			</div>
 			<div style="width:120px; text-align:center; background:#004F3A;">
-			<h1 style="color:#FFFFFF; font-size:24px;">Contact</h1>
+			<a href="links.html"><button class="hover">Links</button></a>
 			</div>
 		</div> <br>
 		</nav>
  
 		<main>
-		<img src="walrusdl.png" alt="the Walrus" width="600">
-		<div style="left; width:65%;">
+		<div style="left; width:75%;"><img src="walrusdl.png" alt="the Walrus" width="410">
+		</div><br>
+		<div style="left; width:75%;">
 		<p style="color:#004F3A; font-size:22; font">I have experience in traditional and digital art; participated in app development before.
 		Maecenas ac eros viverra, blandit augue ac, tincidunt orci.
 		Suspendisse potenti. Mauris in consequat sem. Aenean ac tincidunt sapien.
@@ -51,7 +82,7 @@
  </main>
  <br><br>
  <footer>
- <div style="position:fixed; top:700px;">
+ <div style="position:fixed;">
  <p style="color:#004F3A; text-align:center;">&copy; Leckie DK 2023</p>
  </div>
  </footer>
